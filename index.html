@@ -1,53 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 
 <head>
-	<meta charset="UTF-8">
+	<meta charset='UTF-8'>
 	<title>Seekerly</title>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset='UTF-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
 	<title>Wikipedia Search Engine</title>
 	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css'>
-	<link rel="stylesheet" href="https://azzexx.github.io/Seekerly/dist/style.css">
-
+	<link rel='stylesheet' href='https://azzexx.github.io/Seekerly/dist/style.css'>
 </head>
 
 <body>
 	<!-- partial:index.partial.html -->
-	<div class="main">
-		<div class="home">
-			<div class="container">
-				<div class="row">
-					<div class="eight columns offset-by-two">
-						<form action="" class="wiki-search-form">
-							<input type="search" placeholder="Search on Seekerly..." class="wiki-search-input"
-								id="wiki-search-input">
-							<button class="button btn btn-wiki">Enter</button>
-							<a class="button btn btn-lucky" href="http://en.wikipedia.org/wiki/Special:Random"
-								target="_blank">I'm Feeling Lucky</a>
+	<div class='main'>
+		<div class='home'>
+			<div class='container'>
+				<div class='row'>
+					<div class='eight columns offset-by-two'>
+						<form action='' class='wiki-search-form'>
+							<input type='search' placeholder='Search on Seekerly...' class='wiki-search-input'
+								id='wiki-search-input'>
+							<button class='button btn btn-wiki'>Enter</button>
+							<a class='button btn btn-lucky' href='http://en.wikipedia.org/wiki/Special:Random'
+								target='_blank'>I'm Feeling Lucky</a>
 						</form>
 					</div>
-					<img src="https://azzexx.github.io/Seekerly/image.png">
+					<img src='https://azzexx.github.io/Seekerly/image.png'>
+					<div id="content"></div>
+
 				</div>
 			</div>
 		</div>
 
 		<!-- Results Page -->
 
-		<div class="result hidden">
-			<header class="header">
-				<div class="container">
-					<div class="row">
-						<div class="two-thirds column">
-							<form action="" class="result-wiki-search-form">
-								<input type="text" placeholder="Search Wikipedia..."
-									class="result-wiki-search-form-input" id="result-wiki-search-form-input">
-								<button class="btn result-btn-wiki">Seekerly Search</button>
+		<div class='result hidden'>
+			<header class='header'>
+				<div class='container'>
+					<div class='row'>
+						<div class='two-thirds column'>
+							<form action='' class='result-wiki-search-form'>
+								<input type='text' placeholder='Search Seekerly...'
+									class='result-wiki-search-form-input' id='result-wiki-search-form-input'>
+								<button class='btn result-btn-wiki'>Seekerly Search</button>
 							</form>
 						</div>
-						<a href="http://172.16.1.147/">
-							<div class="one-third column">
+						<a href='http://172.16.1.147/'>
+							<div class='one-third column'>
 								<h1>Seekerly Search</h1>
 							</div>
 						</a>
@@ -55,10 +56,10 @@
 				</div>
 			</header>
 
-			<div class="container">
-				<section class="search-results">
-					<div class="one-half column">
-						<div class="display-results"></div>
+			<div class='container'>
+				<section class='search-results'>
+					<div class='one-half column'>
+						<div class='display-results'></div>
 					</div>
 				</section>
 
@@ -68,7 +69,8 @@
 	</div>
 	<!-- partial -->
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-	<script src="https://azzexx.github.io/Seekerly/dist/script.js"></script>
+	<script src='https://azzexx.github.io/Seekerly/dist/script.js'></script>
+	<script src='https://azzexx.github.io/Seekerly/dist/build.js'></script>
 
 </body>
 

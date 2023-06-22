@@ -35,6 +35,15 @@ summary {
   display: block;
 }
 
+.links {
+  text-align: left;
+  background: #f3f3f37d;
+  border-radius: 6px;
+  padding: 3em;
+  list-style: none !important;
+  margin-top: 4em;
+}
+
 audio,
 canvas,
 progress,
@@ -968,6 +977,6 @@ h1 {
 }
 
 img {
-  width: 38%;
   border-radius: 4px;
+  width: 90%;
 }
